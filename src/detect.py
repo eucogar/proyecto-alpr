@@ -8,7 +8,7 @@ try:
 except ImportError:
     YOLO = None
 
-
+   
 class PlateDetector:
     def __init__(self):
         self.model = None
