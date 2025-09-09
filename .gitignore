@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+venv312/
+
+# IDE
+.vscode/
+.idea/
+
+# Datos grandes
+data/samples/**
+data/videos/**
+data/models/**
+!data/gt/labels.json
+
+# Otros
+.DS_Store
+Thumbs.db
